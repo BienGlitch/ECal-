@@ -1,13 +1,19 @@
 <?php include "include/headerinc.php"; ?>
 
 <style>
+    /* .img1 .bottom img {
+        height: 800px !important;
+    } */
+
     .daydeal h2 {
         color: darkgray
     }
     
     .owl-carousel img {
-        width: 1200px !important;
-        height: 650px !important
+        /* width: 1200px !important; */
+        height: 650px !important;
+        width: 100%;
+        /* height: 100%; */
     }
     
     .owl-carousel a {
@@ -27,7 +33,7 @@
             height: 120px !important;
         }
         .owl-carousel img {
-            width: 350px !important;
+            width: 100% !important;
             height: 350px !important;
         }
         .owl-carousel .article-title {
@@ -54,7 +60,7 @@
 </style>
 
 <!-- Owl Carousel 1 -->
-<div id="owl-carousel-4" class="owl-carousel owl-theme owl-loaded center-owl-nav" data-interval="10000" style="top: 0px">
+<div id="owl-carousel-5" class="owl-carousel owl-theme owl-loaded center-owl-nav" data-interval="10000" style="top: 0px">
 
     <!-- ARTICLE 1 -->
     <article class="article thumb-article">
@@ -137,49 +143,65 @@
 
 </div>
 <!-- /Owl Carousel 1 -->
-<br /><br />
-<!-- Div Container For Body Contents-->
-        <!-- <div class="container-fluid" style="margin:0 auto 0 auto;width:99.999%;">
-        </div> -->
-        <div class="img1 p-1 jumbotron" style="background-color: lightgrey">
-            <div class="container-fluid" style="width:100%">
-                <div class="row">
-                    <div class="col-4" style="padding:3px;">
-                        <img src="./wwwroot/img/comp&P.jpg" class="img-fluid h-100" alt="KOREAN" />
-                    </div>
-                    <div class="col-4" style="padding:3px;">
-                        <img src="./wwwroot/img/gadgets.jpg" class="img-fluid h-100" alt="KOREAN" />
-                    </div>
-                    <div class="col-4" style="padding:3px;">
-                        <img src="./wwwroot/img/fashion.jpg" class="img-fluid h-100" alt="KOREAN" />
-                    </div>
-                </div>
-                <br />
 
-                <div class="py-3 pr-3 jumbotron daydeal">
-                    <div class="well">
-                        <div class="row">
-                            <div class="mt-5 m-auto offset-sm-3 offset-md-3 col-7 col-sm-6 col-md-5">
-                                <h2>Deals of The Day!</h2>
-                            </div>
-                            <div class="col-5">
-                                <img src="./wwwroot/img/elect.jpg" class="img-fluid h-100" alt="KOREAN" style="height:300px;width:100%" />
-                            </div>
-                        </div>
-                    </div>
+<br /><br />
+
+<!-- Div Container For Body Contents-->
+<!-- <div class="container-fluid" style="margin:0 auto 0 auto;width:99.999%;"></div> -->
+<div class="img1 p-1 jumbotron" style="background-color: lightgrey">
+    <div class="container-fluid" style="width:100%">
+        <div class="row">
+            <div class="col-4 article thumb-article" style="padding:3px;">
+                <div class="article-img">
+                    <img src="./wwwroot/img/comp&P.jpg" class="img-fluid h-100" alt="KOREAN" />
                 </div>
-                
+            </div>
+            <div class="col-4 article thumb-article" style="padding:3px;">
+                <div class="article-img">
+                    <img src="./wwwroot/img/gadgets.jpg" class="img-fluid h-100" alt="KOREAN" />
+                </div>
+            </div>
+            <div class="col-4 article thumb-article" style="padding:3px;">
+                <div class="article-img">
+                    <img src="./wwwroot/img/fashion.jpg" class="img-fluid h-100" alt="KOREAN" />
+                </div>
+            </div>
+        </div>
+        <br />
+
+        <div class="py-3 pr-3 jumbotron daydeal">
+            <div class="well">
                 <div class="row">
-                    <div class="col-4" style="padding:3px;">
-                        <img src="./wwwroot/img/foods&D - res.jpg" class="img-fluid h-100" alt="KOREAN" />
+                    <div class="mt-5 m-auto offset-sm-3 offset-md-3 col-7 col-sm-6 col-md-5">
+                        <h2>Deals of The Day!</h2>
                     </div>
-                    <div class="col-4" style="padding:3px;">
-                        <img src="./wwwroot/img/elect.jpg" class="img-fluid h-100" alt="KOREAN" />
-                    </div>
-                    <div class="col-4" style="padding:3px;">
-                        <img src="./wwwroot/img/autoM.jpg" class="img-fluid h-100" alt="KOREAN" />
+                    <div class="col-5 article thumb-article">
+                        <div class="article-img">
+                            <img src="./wwwroot/img/elect.jpg" class="img-fluid h-100" alt="KOREAN" style="height:300px;width:100%" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+                
+        <div class="row bottom">
+            <div class="col-4 article thumb-article" style="padding:3px;">
+                <div class="article-img">
+                    <img src="./wwwroot/img/foods&D - res.jpg" class="img-fluid h-100" alt="KOREAN" />
+                </div>
+            </div>
+            <div class="col-4 article thumb-article" style="padding:3px;">
+                <div class="article-img">
+                    <img src="./wwwroot/img/elect.jpg" class="img-fluid h-100" alt="KOREAN" />
+                </div>
+            </div>
+            <div class="col-4 article thumb-article" style="padding:3px;">
+                <div class="article-img">
+                    <img src="./wwwroot/img/autoM.jpg" class="img-fluid h-100" alt="KOREAN" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="./wwwroot/owlcarousel/main.js"></script>
