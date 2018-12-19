@@ -1,0 +1,76 @@
+/* [ Embedded Styling For Navbar & its Items] */
+
+font {
+    color: white
+}
+
+font:hover {
+    color: grey
+}
+
+font i:hover {
+    color: blue
+}
+
+.nav1 {
+    height: 50px
+}
+
+.nav1 h4 {
+    color: white
+}
+
+.navbar {
+    background-color: rgb(28, 30, 31) !important
+}
+
+.nav1 .btn,
+.nav1 .btn-dark {
+    background-color: rgb(28, 30, 31) !important
+}
+
+#navbar {
+    transition: top 0.3s;
+    transition: bottom 0.3s;
+}
+
+.btn:hover,
+.nav1 button:focus,
+.btn-dark:hover {
+    color: grey !important
+}
+
+.nav-item a:link {
+    color: white !important
+}
+
+.nav-item a:hover {
+    color: grey !important
+}
+
+.dropdown-menu a:link {
+    color: black !important
+}
+
+.dropdown-menu a:hover {
+    color: white !important;
+    background-color: rgb(48, 40, 41) !important
+}
+
+.navbar-brand img {
+    background-color: white !important
+}
+
+.search {
+    background-color: #343a40
+}
+
+.search.fixed-top {
+    z-index: 100 !important;
+}
+
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2
+}
