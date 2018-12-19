@@ -1,6 +1,8 @@
 <?php include "include/headerinc.php"; ?>
 
 <style>
+    /* Send to external style sheet later */
+    
     /* .img1 .bottom img {
         height: 800px !important;
     } */
